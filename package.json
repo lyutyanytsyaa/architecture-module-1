@@ -1,0 +1,14 @@
+{
+  "name": "orderflow-architecture-module",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "demo": "node src/demo.js",
+    "test": "node --test tests/*.test.js"
+  }
+}
